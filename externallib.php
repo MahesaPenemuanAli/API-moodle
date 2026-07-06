@@ -102,7 +102,7 @@ class local_api_moodle_external extends external_api {
             'id' => new external_value(PARAM_INT, 'Assignment id.'),
             'cmid' => new external_value(PARAM_INT, 'Course module id.'),
             'courseid' => new external_value(PARAM_INT, 'Course id.'),
-            'coursename' => new external_value(PARAM_TEXT, 'Course display name.'),
+            'coursename' => new external_value(PARAM_TEXT, 'Course display name.'),            
             'name' => new external_value(PARAM_TEXT, 'Assignment name.'),
             'intro' => new external_value(PARAM_RAW, 'Plain text intro when requested.'),
             'duedate' => new external_value(PARAM_INT, 'Due timestamp.'),
